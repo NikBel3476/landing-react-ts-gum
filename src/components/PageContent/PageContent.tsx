@@ -18,7 +18,6 @@ const MAPPED_COLOR_TYPES: Record<TextColor, string> = {
     white: styles.white,
     beige: styles.beige,
     light: styles.light
-
 }
 
 const PageContent = (props: PageContentProps): React.ReactElement => {
