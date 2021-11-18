@@ -1,0 +1,11 @@
+.container {
+    background: url('../../assets/bg.png') center center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.IntroContent {
+    width: 20vw;
+    margin: 13vh auto auto 10vw;
+
+}

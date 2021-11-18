@@ -1,0 +1,19 @@
+.container {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+}
+
+.title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.text {
+    margin: 4vh auto 4vh 0;
+    width: 80%;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
