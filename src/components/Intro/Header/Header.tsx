@@ -2,8 +2,8 @@ import React from 'react';
 import clsx from 'clsx';
 
 import styles from './Header.module.css';
-import NeuroLogo from '../../../assets/Neuro_logo.svg';
-import LockLogo from '../../../assets/Lock_logo.svg';
+import NeuroLogo from '../../../assets/Intro/Neuro_logo.svg';
+import LockLogo from '../../../assets/Intro/Lock_logo.svg';
 
 type HeaderProps = {
     className?: string

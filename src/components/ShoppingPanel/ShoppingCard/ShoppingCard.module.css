@@ -1,0 +1,33 @@
+.container {
+    width: 290px;
+    height: 250px;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.blue {
+    background: #005466;
+    color: #F6F9E5;
+}
+
+.beige {
+    background: #F7D8BF;
+    color: #C47B59;
+}
+
+.light_green {
+    background: #F1FAF6;
+    color: #64BAA1;
+}
+
+.image {
+    margin: 40px auto auto;
+}
+
+.text {
+    margin: 40px auto;
+}
