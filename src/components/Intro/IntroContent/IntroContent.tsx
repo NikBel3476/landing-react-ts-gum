@@ -14,7 +14,7 @@ const IntroContent = (props: IntroContentProps): React.ReactElement => {
 
     return (
         <div className={clsx(className ? className : styles.container)}>
-            <PageContent title={'Health in your pocket'} text={'Functional gum and mints to energize, calm and focus you in the moment.'}>
+            <PageContent title={'Health in your pocket'} text={'Functional gum and mints to energize, calm and focus you in the moment.'} color={"white"}>
                 <Button type={"black"} size={"big"} text={"SHOP"} />
             </PageContent>
         </div>

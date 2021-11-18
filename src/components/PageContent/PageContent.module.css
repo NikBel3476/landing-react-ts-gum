@@ -17,3 +17,19 @@
     font-size: 20px;
     line-height: 30px;
 }
+
+.black {
+    color: #000000;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.beige {
+    color: #C47B59;
+}
+
+.light {
+    color: #F6F9E5;
+}
