@@ -10,6 +10,7 @@ import Subscribe from "../Subscribe";
 import OurMission from "../OurMission";
 import Science from "../Science/Science";
 import Prefooter from "../Prefooter";
+import Footer from "../Footer";
 
 import '../../styles/fonts.css';
 import '../../styles/common.css';
@@ -27,6 +28,7 @@ function App() {
         <OurMission />
         <Science />
         <Prefooter />
+        <Footer />
     </div>
   );
 }

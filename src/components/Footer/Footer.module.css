@@ -1,0 +1,19 @@
+.container {
+    background: url('../../assets/Footer/bg.png') center center no-repeat;
+    background-size: cover;
+    padding: 180px 0 320px;
+}
+
+.wrapper {
+    width: 25%;
+    margin: 0 auto auto 115px;
+}
+
+.title {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 60px;
+    color: #FFFFFF;
+}

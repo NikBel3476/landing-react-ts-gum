@@ -34,7 +34,6 @@ const EnergyAndFocus = (props: EnergyAndFocusBlockProps): React.ReactElement => 
             </PageContent>
             <div className={clsx(styles.wave_images_wrapper)}>
                 <img className={clsx(styles.wave_image, styles.wave_image_mirrored)} src={WaveImg} alt={'Wave'} />
-                <img className={clsx(styles.wave_image)} src={WaveImg} alt={'Wave'} />
             </div>
         </div>
     );

@@ -60,10 +60,8 @@
 }
 
 .wave_image {
+    display: block;
     position: relative;
-    left: -450px;
-}
-
-.wave_image_mirrored {
-    transform: scaleX(-1);
+    width: 100vw;
+    top: 2px;
 }
