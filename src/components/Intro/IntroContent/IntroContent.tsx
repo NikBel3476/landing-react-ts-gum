@@ -18,6 +18,7 @@ const IntroContent = (props: IntroContentProps): React.ReactElement => {
                 title={'Health in your pocket'}
                 text={'Functional gum and mints to energize, calm and focus you in the moment.'}
                 color={"white"}
+                titleSize={'big'}
                 titleBoldify={true}
             >
                 <Button className={clsx(styles.button)} type={"black"} size={"big"} text={"SHOP"} />

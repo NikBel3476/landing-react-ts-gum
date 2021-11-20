@@ -23,6 +23,7 @@ const CalmAndClarity = (props: CalmAndClarityProps): React.ReactElement => {
                 subTitle={'& Clarity'}
                 text={'Expertly developed with GABA, vitamin D3, and L-theanine to optimize composure and clarity of mind.*'}
                 color={'beige'}
+                titleSize={'big'}
                 titleBoldify={false}
             >
                 <GumTaste className={clsx(styles.gum_taste)} type={'ginger_chai'} />

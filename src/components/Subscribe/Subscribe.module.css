@@ -1,0 +1,17 @@
+.container {
+    background: #F1FAF6;
+}
+
+.image {
+    margin: 170px auto 190px 190px;
+}
+
+.page_content {
+    width: 31%;
+    margin: 295px 185px auto auto;
+    float: right;
+}
+
+.button {
+    margin: 25px auto auto 0;
+}

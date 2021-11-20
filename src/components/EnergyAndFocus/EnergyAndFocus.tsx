@@ -26,6 +26,7 @@ const EnergyAndFocus = (props: EnergyAndFocusBlockProps): React.ReactElement => 
                 subTitle={'& Focus'}
                 text={'Specially formulated with natural caffeine, L-theanine and B-vitamins to sustain the mental endurance necessary to maintain your focus.*'}
                 color={'light'}
+                titleSize={'normal'}
                 titleBoldify={false}
             >
                 <GumTaste className={clsx(styles.gum_taste)} type={'peppermint'} />

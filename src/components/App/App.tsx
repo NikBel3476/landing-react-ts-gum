@@ -9,6 +9,7 @@ import '../../styles/fonts.css';
 import '../../styles/common.css';
 import CalmAndClarity from "../CalmAndClarity";
 import IdealState from "../IdealState";
+import Subscribe from "../Subscribe";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <EnergyAndFocus />
         <CalmAndClarity />
         <IdealState />
+        <Subscribe />
     </div>
   );
 }

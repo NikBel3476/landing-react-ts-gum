@@ -22,6 +22,7 @@ const IdealState = (props: IdealStateProps): React.ReactElement => {
                 title={'The Ideal State'}
                 text={'Some days, getting in the zone requires a boost – other days, we need to take it down a notch. Balance the ups and downs of your ambition with a combo pack of Energy & Focus and Calm & Clarity.'}
                 color={'black'}
+                titleSize={'normal'}
                 titleBoldify={false}
             >
                 <Button className={clsx(styles.button)} type={'transparent'} size={'big'} text={'SHOP NOW'} />

@@ -3,6 +3,7 @@ import clsx from 'clsx';
 
 import styles from './PageContent.module.css';
 
+import { TitleSize } from "./types/TitleSize";
 import { TextColor } from "./types/TextColor";
 
 type PageContentProps = {
@@ -12,6 +13,7 @@ type PageContentProps = {
     subTitle?: string,
     text: string,
     color: TextColor,
+    titleSize: TitleSize,
     titleBoldify: boolean
 }
 
@@ -22,8 +24,13 @@ const MAPPED_COLOR_TYPES: Record<TextColor, string> = {
     light: styles.light
 }
 
+const MAPPED_TITLE_SIZE: Record<TitleSize, string> = {
+    big: styles.title_big,
+    normal: styles.title_normal
+}
+
 const PageContent = (props: PageContentProps): React.ReactElement => {
-    const { className, title, subTitle, text, children, color, titleBoldify } = props;
+    const { className, title, subTitle, text, children, color, titleSize, titleBoldify } = props;
 
     return (
         <div className={clsx(
@@ -32,8 +39,8 @@ const PageContent = (props: PageContentProps): React.ReactElement => {
             MAPPED_COLOR_TYPES[color],
             titleBoldify ? styles.bold : styles.normal
         )}>
-            <p className={clsx(styles.title)}>{title}</p>
-            {subTitle && <p className={clsx(styles.title)}>{subTitle}</p>}
+            <p className={clsx(styles.title, MAPPED_TITLE_SIZE[titleSize])}>{title}</p>
+            {subTitle && <p className={clsx(styles.title, MAPPED_TITLE_SIZE[titleSize])}>{subTitle}</p>}
             <p className={clsx(styles.text)}>{text}</p>
             {children}
         </div>
