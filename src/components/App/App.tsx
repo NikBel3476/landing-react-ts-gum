@@ -10,6 +10,7 @@ import '../../styles/common.css';
 import CalmAndClarity from "../CalmAndClarity";
 import IdealState from "../IdealState";
 import Subscribe from "../Subscribe";
+import OurMission from "../OurMission";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <CalmAndClarity />
         <IdealState />
         <Subscribe />
+        <OurMission />
     </div>
   );
 }

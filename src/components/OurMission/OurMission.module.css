@@ -1,0 +1,34 @@
+.container {
+    background: #FCF2F0;
+}
+
+.image {
+    margin: 170px auto 0;
+}
+
+.page_content {
+    width: 35%;
+    margin: 310px 130px auto auto;
+    float: right;
+}
+
+.button {
+    margin: 25px auto auto 0;
+}
+
+.link_wrapper {
+    width: 120px;
+    margin: 20px auto auto 0;
+    padding: 0 0 12px 0;
+    border-bottom: 2px solid #000000;
+}
+
+.wave_images_wrapper {
+    margin: -90px auto 0;
+    overflow: hidden;
+}
+
+.wave_image {
+    position: relative;
+    width: 100vw;
+}
