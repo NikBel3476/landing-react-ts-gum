@@ -1,0 +1,26 @@
+.container {
+    background: #FFFFFF;
+    text-align: center;
+    margin: 120px auto 160px;
+}
+
+.container > p {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text > span {
+    font-size: 19px;
+}
