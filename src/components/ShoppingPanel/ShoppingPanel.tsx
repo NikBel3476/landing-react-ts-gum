@@ -18,7 +18,7 @@ const ShoppingPanel = (props: ShoppingPanelProps): React.ReactElement => {
     const { className } = props;
 
     return (
-        <div className={clsx(className ? className : styles.container)}>
+        <div className={clsx(styles.container, className)}>
             <div className={clsx(styles.rectangle)}></div>
             <p className={clsx(styles.title)}>We get the mental game</p>
             <p className={clsx(styles.text)}>
@@ -30,9 +30,9 @@ const ShoppingPanel = (props: ShoppingPanelProps): React.ReactElement => {
             <p className={clsx(styles.subtitle)}>Shop by function</p>
             <p className={clsx(styles.subtitle_text)}>Find the right products for any situation.</p>
             <div className={clsx(styles.cards_wrapper)}>
-                <ShoppingCard color={'blue'} image={SunRaysImg} text={'Energy & Focus'} ></ShoppingCard>
-                <ShoppingCard color={'beige'} image={SunsetImg} text={'Calm & Clarity'} ></ShoppingCard>
-                <ShoppingCard color={'light_green'} image={SunRaysWithSunsetImg} text={'Ideal State'} ></ShoppingCard>
+                <ShoppingCard color={'blue'} image={SunRaysImg} text={'Energy & Focus'} />
+                <ShoppingCard color={'beige'} image={SunsetImg} text={'Calm & Clarity'} />
+                <ShoppingCard color={'light_green'} image={SunRaysWithSunsetImg} text={'Ideal State'} />
             </div>
             <div className={clsx(styles.wave_images_wrapper)}>
                 <img className={clsx(styles.wave_image, styles.wave_image_mirrored)} src={WaveImg} alt={"Wave"} />

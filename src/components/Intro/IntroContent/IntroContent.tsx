@@ -13,9 +13,14 @@ const IntroContent = (props: IntroContentProps): React.ReactElement => {
     const { className } = props;
 
     return (
-        <div className={clsx(className ? className : styles.container)}>
-            <PageContent title={'Health in your pocket'} text={'Functional gum and mints to energize, calm and focus you in the moment.'} color={"white"}>
-                <Button type={"black"} size={"big"} text={"SHOP"} />
+        <div className={clsx(styles.container, className)}>
+            <PageContent
+                title={'Health in your pocket'}
+                text={'Functional gum and mints to energize, calm and focus you in the moment.'}
+                color={"white"}
+                titleBoldify={true}
+            >
+                <Button className={clsx(styles.button)} type={"black"} size={"big"} text={"SHOP"} />
             </PageContent>
         </div>
     );

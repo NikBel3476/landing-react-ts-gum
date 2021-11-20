@@ -28,7 +28,7 @@ const Button = (props: ButtonProps): React.ReactElement => {
     const { className, type, size, text } = props;
 
     return (
-        <button className={clsx(className ? className : styles.button, MAPPED_BUTTON_TYPES[type], MAPPED_BUTTON_SIZES[size])}>{text}</button>
+        <button className={clsx(styles.button, className, MAPPED_BUTTON_TYPES[type], MAPPED_BUTTON_SIZES[size])}>{text}</button>
     );
 }
 

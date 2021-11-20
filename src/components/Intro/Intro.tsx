@@ -14,7 +14,7 @@ const Intro = (props: IntroProps): React.ReactElement => {
     const { className } = props;
 
     return (
-        <div className={clsx(className ? className : styles.container)}>
+        <div className={clsx(styles.container, className)}>
             <Header />
             <IntroContent className={clsx(styles.IntroContent)}/>
         </div>

@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.square {
+    width: 20px;
+    height : 20px;
+    border: 1px solid #FFFFFF;
+    margin: 0 20px 0 0;
+}
+
+.blue {
+    background: #13C0D7;
+}
+
+.red {
+    background: #D53F23;
+}
+
+.brown {
+    background: #C47B59;
+}
+
+.orange {
+    background: #EF9632;
+}

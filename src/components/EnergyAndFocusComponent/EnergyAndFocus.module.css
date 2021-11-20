@@ -1,0 +1,42 @@
+.container {
+    background: #005466;
+}
+
+.page_content {
+    width: 32%;
+    margin: 0 7% auto auto;
+    float: right;
+    padding: 20% 0 0;
+}
+
+.gum_taste {
+    margin: 20px auto auto;
+}
+
+.button {
+    margin: 30px auto auto;
+    border: 2px solid #F6F9E5;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #F6F9E5;
+}
+
+.image {
+    margin: -200px auto auto 5%;
+}
+
+.wave_images_wrapper {
+    margin: 80px auto auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.wave_image {
+    position: relative;
+    left: -450px;
+}
+
+.wave_image_mirrored {
+    transform: scaleX(-1);
+}

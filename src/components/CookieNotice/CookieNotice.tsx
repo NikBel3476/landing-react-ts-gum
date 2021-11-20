@@ -17,7 +17,7 @@ const CookieNotice = (props: CookieNoticeProps): React.ReactElement | null => {
 
     if (isShown) {
         return (
-            <div className={clsx(className ? className : styles.container)}>
+            <div className={clsx(styles.container, className)}>
                 <p className={clsx(styles.text)}>We use cookies to enhance your experience on our website. By using our website, you agree to our privacy policy.</p>
                 <a className={clsx(styles.link)} href={"#top"}>Learn more</a>
                 <button className={clsx(styles.button)} onClick={handleButtonClick}>GOT IT</button>

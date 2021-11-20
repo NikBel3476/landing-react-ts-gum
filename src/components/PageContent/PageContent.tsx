@@ -8,9 +8,11 @@ import { TextColor } from "./types/TextColor";
 type PageContentProps = {
     className?: string,
     children?: React.ReactNode | React.ReactNode[],
-    title: string,
+    title: string | React.ReactNode,
+    subTitle?: string,
     text: string,
-    color: TextColor
+    color: TextColor,
+    titleBoldify: boolean
 }
 
 const MAPPED_COLOR_TYPES: Record<TextColor, string> = {
@@ -21,11 +23,17 @@ const MAPPED_COLOR_TYPES: Record<TextColor, string> = {
 }
 
 const PageContent = (props: PageContentProps): React.ReactElement => {
-    const { className, title, text, children, color } = props;
+    const { className, title, subTitle, text, children, color, titleBoldify } = props;
 
     return (
-        <div className={clsx(className ? className : styles.container, MAPPED_COLOR_TYPES[color])}>
+        <div className={clsx(
+            styles.container,
+            className,
+            MAPPED_COLOR_TYPES[color],
+            titleBoldify ? styles.bold : styles.normal
+        )}>
             <p className={clsx(styles.title)}>{title}</p>
+            {subTitle && <p className={clsx(styles.title)}>{subTitle}</p>}
             <p className={clsx(styles.text)}>{text}</p>
             {children}
         </div>

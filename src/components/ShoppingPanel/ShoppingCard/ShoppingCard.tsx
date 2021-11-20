@@ -23,7 +23,7 @@ const ShoppingCard = (props: ShoppingCardProps): React.ReactElement => {
     const { className, color, image, text } = props;
 
     return (
-        <div className={clsx(className ? className : styles.container, MAPPED_CARD_COLORS[color])}>
+        <div className={clsx(styles.container, className, MAPPED_CARD_COLORS[color])}>
             <img className={clsx(styles.image)} src={image} alt={"Option logo"}/>
             <p className={clsx(styles.text)}>{text}</p>
             <Button type={'white'} size={'small'} text={'SHOP NOW'} />

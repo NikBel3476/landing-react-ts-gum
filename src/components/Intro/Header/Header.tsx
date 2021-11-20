@@ -13,7 +13,7 @@ const Header = (props: HeaderProps): React.ReactElement => {
     const { className } = props;
 
     return (
-        <div className={clsx(className ? className : styles.container)}>
+        <div className={clsx(styles.container, className)}>
             <header className={clsx(styles.header)}>
                 <ul className={clsx(styles.list)}>
                     <li className={clsx(styles.list_elem, styles.list_elem_left)}>
