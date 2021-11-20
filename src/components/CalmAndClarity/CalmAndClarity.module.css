@@ -1,0 +1,24 @@
+.container {
+    background: #F7D8BF;
+}
+
+.page_content {
+    width: 32%;
+    margin: 30px auto auto 7%;
+    float: left;
+    padding: 20% 0 0;
+}
+
+.gum_taste {
+    margin: 20px auto auto 10px;
+}
+
+.button {
+    margin: 30px auto auto 0;
+    border: 2px solid #C47B59;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #C47B59;
+}
