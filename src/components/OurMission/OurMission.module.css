@@ -29,6 +29,7 @@
 }
 
 .wave_image {
+    display: block;
     position: relative;
     width: 100vw;
 }

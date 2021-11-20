@@ -1,0 +1,33 @@
+.container {
+    background: #64BAA1;
+}
+
+.image {
+    position: relative;
+    width: 950px;
+    height: 946px;
+    margin: auto;
+    top: -190px;
+    left: 30px
+}
+
+.page_content {
+    width: 33%;
+    margin: 195px auto auto 120px;
+    float: left;
+}
+
+.button {
+    margin: 25px auto auto 0;
+}
+
+.link_wrapper {
+    width: 150px;
+    margin: 20px auto auto 0;
+    padding: 0 0 12px 0;
+    border-bottom: 2px solid #0A644A;
+}
+
+.link {
+    color: #0A644A;
+}

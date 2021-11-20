@@ -11,6 +11,7 @@ import CalmAndClarity from "../CalmAndClarity";
 import IdealState from "../IdealState";
 import Subscribe from "../Subscribe";
 import OurMission from "../OurMission";
+import Science from "../Science/Science";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <IdealState />
         <Subscribe />
         <OurMission />
+        <Science />
     </div>
   );
 }
